@@ -21,7 +21,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto grid sm:grid-cols-2 lg:grid-cols-5 gap-10">
         <div className="lg:col-span-2">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 via-pink-500 to-amber-400 flex items-center justify-center">
+            <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-teal-500 via-rose-500 to-amber-400 flex items-center justify-center">
               <GraduationCap className="w-5 h-5 text-black" />
             </div>
             <span className="font-display font-bold text-lg text-white">Coaching Classes</span>

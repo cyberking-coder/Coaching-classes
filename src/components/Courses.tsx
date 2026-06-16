@@ -49,12 +49,12 @@ export default function Courses() {
             whileHover={{ y: -8 }}
             className={`relative rounded-3xl p-8 border ${
               c.highlight
-                ? 'bg-gradient-to-b from-violet-500/15 to-pink-500/5 border-violet-400/40 shadow-[0_0_60px_rgba(168,85,247,0.15)]'
+                ? 'bg-gradient-to-b from-teal-500/15 to-rose-500/5 border-teal-400/40 shadow-[0_0_60px_rgba(20, 184, 166,0.15)]'
                 : 'bg-white/5 border-white/10'
             }`}
           >
             {c.highlight && (
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-violet-500 to-pink-500 text-xs font-semibold text-white">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-teal-500 to-rose-500 text-xs font-semibold text-white">
                 Recommended
               </div>
             )}
@@ -68,7 +68,7 @@ export default function Courses() {
             <ul className="mt-6 space-y-3">
               {c.features.map((f) => (
                 <li key={f} className="flex items-center gap-2 text-sm text-white/70">
-                  <Check className="w-4 h-4 text-violet-300 shrink-0" />
+                  <Check className="w-4 h-4 text-teal-300 shrink-0" />
                   {f}
                 </li>
               ))}
@@ -78,7 +78,7 @@ export default function Courses() {
               href="#counselling"
               className={`mt-8 inline-flex items-center justify-center gap-2 w-full py-3 rounded-full font-semibold text-sm transition-transform hover:scale-[1.02] ${
                 c.highlight
-                  ? 'bg-gradient-to-r from-violet-500 via-pink-500 to-amber-400 text-black'
+                  ? 'bg-gradient-to-r from-teal-500 via-rose-500 to-amber-400 text-black'
                   : 'bg-white/10 text-white border border-white/15'
               }`}
             >

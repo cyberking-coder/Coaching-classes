@@ -31,7 +31,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-10 flex items-center justify-between h-20">
         <div className="flex items-center gap-2">
-          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-violet-500 via-pink-500 to-amber-400 flex items-center justify-center">
+          <div className="w-9 h-9 rounded-xl bg-gradient-to-br from-teal-500 via-rose-500 to-amber-400 flex items-center justify-center">
             <GraduationCap className="w-5 h-5 text-black" />
           </div>
           <span className="font-display font-bold text-lg tracking-tight text-white">

@@ -41,7 +41,7 @@ export default function Testimonials() {
             transition={{ duration: 0.5, delay: i * 0.1 }}
             className="rounded-2xl bg-white/5 border border-white/10 p-7 relative"
           >
-            <Quote className="w-8 h-8 text-violet-400/40 mb-4" />
+            <Quote className="w-8 h-8 text-teal-400/40 mb-4" />
             <p className="text-white/75 text-sm leading-relaxed">{t.quote}</p>
             <div className="mt-6 flex items-center gap-1">
               {Array.from({ length: 5 }).map((_, idx) => (
@@ -50,7 +50,7 @@ export default function Testimonials() {
             </div>
             <div className="mt-3">
               <p className="text-white font-semibold text-sm">{t.name}</p>
-              <p className="text-xs text-violet-300">{t.result}</p>
+              <p className="text-xs text-teal-300">{t.result}</p>
             </div>
           </motion.div>
         ))}

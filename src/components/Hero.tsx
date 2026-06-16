@@ -7,8 +7,8 @@ export default function Hero() {
     <section className="relative pt-40 pb-24 px-6 lg:px-10 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
-      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-violet-600/20 rounded-full blur-[150px]" />
-      <div className="absolute top-40 right-0 w-[400px] h-[400px] bg-pink-500/20 rounded-full blur-[120px]" />
+      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-teal-600/20 rounded-full blur-[150px]" />
+      <div className="absolute top-40 right-0 w-[400px] h-[400px] bg-rose-500/20 rounded-full blur-[120px]" />
       <div className="absolute top-60 left-0 w-[400px] h-[400px] bg-amber-400/10 rounded-full blur-[120px]" />
 
       <div className="relative max-w-5xl mx-auto text-center">
@@ -50,7 +50,7 @@ export default function Hero() {
         >
           <a
             href="#counselling"
-            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-violet-500 via-pink-500 to-amber-400 text-black font-semibold hover:shadow-[0_0_40px_rgba(168,85,247,0.4)] transition-shadow"
+            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-teal-500 via-rose-500 to-amber-400 text-black font-semibold hover:shadow-[0_0_40px_rgba(20, 184, 166,0.4)] transition-shadow"
           >
             Book Free Counselling
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
