@@ -26,12 +26,12 @@ export default function Team() {
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
             whileHover={{ y: -6 }}
-            className="rounded-2xl bg-white/5 border border-white/10 overflow-hidden hover:border-white/20 transition-colors"
+            className="rounded-2xl bg-black/[0.03] border border-stone-900/10 overflow-hidden hover:border-stone-900/20 transition-colors"
           >
             <div className={`h-40 bg-gradient-to-br ${member.gradient} opacity-80`} />
             <div className="p-5">
-              <h3 className="text-white font-semibold">{member.name}</h3>
-              <p className="text-sm text-white/55 mt-1">{member.role}</p>
+              <h3 className="text-stone-800 font-semibold">{member.name}</h3>
+              <p className="text-sm text-stone-600 mt-1">{member.role}</p>
               <p className="text-xs text-[#8a9a7b] mt-2">{member.exp}</p>
             </div>
           </motion.div>

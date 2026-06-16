@@ -41,15 +41,15 @@ export default function FAQ() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.4, delay: i * 0.05 }}
-            className="rounded-2xl bg-white/5 border border-white/10 overflow-hidden"
+            className="rounded-2xl bg-black/[0.03] border border-stone-900/10 overflow-hidden"
           >
             <button
               onClick={() => setOpen(open === i ? null : i)}
               className="w-full flex items-center justify-between px-6 py-5 text-left"
             >
-              <span className="text-white font-medium text-sm sm:text-base">{f.q}</span>
+              <span className="text-stone-800 font-medium text-sm sm:text-base">{f.q}</span>
               <ChevronDown
-                className={`w-5 h-5 text-white/50 shrink-0 transition-transform ${open === i ? 'rotate-180' : ''}`}
+                className={`w-5 h-5 text-stone-500 shrink-0 transition-transform ${open === i ? 'rotate-180' : ''}`}
               />
             </button>
             <AnimatePresence initial={false}>
@@ -61,7 +61,7 @@ export default function FAQ() {
                   transition={{ duration: 0.3 }}
                   className="overflow-hidden"
                 >
-                  <p className="px-6 pb-5 text-sm text-white/55 leading-relaxed">{f.a}</p>
+                  <p className="px-6 pb-5 text-sm text-stone-600 leading-relaxed">{f.a}</p>
                 </motion.div>
               )}
             </AnimatePresence>

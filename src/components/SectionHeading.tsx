@@ -15,11 +15,11 @@ export default function SectionHeading({ eyebrow, title, description }: SectionH
       transition={{ duration: 0.6 }}
       className="max-w-2xl mx-auto text-center mb-14"
     >
-      <span className="inline-block px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs font-semibold tracking-widest uppercase text-[#8a9a7b] mb-4">
+      <span className="inline-block px-4 py-1.5 rounded-full bg-black/[0.04] border border-stone-900/10 text-xs font-semibold tracking-widest uppercase text-[#6b7a5e] mb-4">
         {eyebrow}
       </span>
-      <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">{title}</h2>
-      {description && <p className="mt-4 text-white/55 text-base">{description}</p>}
+      <h2 className="text-3xl sm:text-4xl font-bold text-stone-800 tracking-tight">{title}</h2>
+      {description && <p className="mt-4 text-stone-600 text-base">{description}</p>}
     </motion.div>
   );
 }

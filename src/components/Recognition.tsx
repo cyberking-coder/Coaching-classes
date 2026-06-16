@@ -27,12 +27,12 @@ export default function Recognition() {
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.4, delay: i * 0.1 }}
-            className="rounded-2xl bg-white/5 border border-white/10 p-6 flex flex-col items-center text-center gap-3 hover:border-[#d9c9a3]/30 transition-colors"
+            className="rounded-2xl bg-black/[0.03] border border-stone-900/10 p-6 flex flex-col items-center text-center gap-3 hover:border-[#d9c9a3]/40 transition-colors"
           >
-            <div className="w-12 h-12 rounded-full bg-[#d9c9a3]/10 flex items-center justify-center">
-              <b.icon className="w-6 h-6 text-[#d9c9a3]" />
+            <div className="w-12 h-12 rounded-full bg-[#d9c9a3]/15 flex items-center justify-center">
+              <b.icon className="w-6 h-6 text-[#9a8a5a]" />
             </div>
-            <span className="text-sm text-white/75 font-medium">{b.label}</span>
+            <span className="text-sm text-stone-700 font-medium">{b.label}</span>
           </motion.div>
         ))}
       </div>

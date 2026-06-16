@@ -49,8 +49,8 @@ export default function Courses() {
             whileHover={{ y: -8 }}
             className={`relative rounded-3xl p-8 border ${
               c.highlight
-                ? 'bg-gradient-to-b from-[#8a9a7b]/15 to-[#7fa8ad]/5 border-[#8a9a7b]/40 shadow-[0_0_60px_rgba(138, 154, 123, 0.15)]'
-                : 'bg-white/5 border-white/10'
+                ? 'bg-gradient-to-b from-[#8a9a7b]/15 to-[#7fa8ad]/5 border-[#8a9a7b]/40 shadow-[0_0_60px_rgba(138,154,123,0.15)]'
+                : 'bg-black/[0.03] border-stone-900/10'
             }`}
           >
             {c.highlight && (
@@ -58,16 +58,16 @@ export default function Courses() {
                 Recommended
               </div>
             )}
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#d9c9a3]">{c.tag}</span>
-            <h3 className="mt-3 text-2xl font-bold text-white">{c.name}</h3>
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#9a8a5a]">{c.tag}</span>
+            <h3 className="mt-3 text-2xl font-bold text-stone-800">{c.name}</h3>
             <div className="mt-4 flex items-baseline gap-1">
-              <span className="text-3xl font-bold text-white">{c.price}</span>
-              <span className="text-white/50 text-sm">{c.period}</span>
+              <span className="text-3xl font-bold text-stone-800">{c.price}</span>
+              <span className="text-stone-500 text-sm">{c.period}</span>
             </div>
 
             <ul className="mt-6 space-y-3">
               {c.features.map((f) => (
-                <li key={f} className="flex items-center gap-2 text-sm text-white/70">
+                <li key={f} className="flex items-center gap-2 text-sm text-stone-600">
                   <Check className="w-4 h-4 text-[#8a9a7b] shrink-0" />
                   {f}
                 </li>
@@ -79,7 +79,7 @@ export default function Courses() {
               className={`mt-8 inline-flex items-center justify-center gap-2 w-full py-3 rounded-full font-semibold text-sm transition-transform hover:scale-[1.02] ${
                 c.highlight
                   ? 'bg-gradient-to-r from-[#8a9a7b] via-[#7fa8ad] to-[#d9c9a3] text-black'
-                  : 'bg-white/10 text-white border border-white/15'
+                  : 'bg-stone-900/[0.06] text-stone-800 border border-stone-900/15'
               }`}
             >
               Enroll Now

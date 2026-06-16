@@ -34,12 +34,12 @@ export default function StatPill({ value, suffix = '', label }: StatPillProps) {
   return (
     <div
       ref={ref}
-      className="rounded-2xl bg-white/5 border border-white/10 backdrop-blur-sm px-4 py-6 hover:border-white/20 transition-colors"
+      className="rounded-2xl bg-black/[0.03] border border-stone-900/10 backdrop-blur-sm px-4 py-6 hover:border-stone-900/20 transition-colors"
     >
-      <div className="text-3xl sm:text-4xl font-bold text-white font-display">
+      <div className="text-3xl sm:text-4xl font-bold text-stone-800 font-display">
         {count}{suffix}
       </div>
-      <div className="mt-1 text-sm text-white/50">{label}</div>
+      <div className="mt-1 text-sm text-stone-500">{label}</div>
     </div>
   );
 }
