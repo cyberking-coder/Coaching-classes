@@ -17,13 +17,13 @@ export default function FreeCounselling() {
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true, margin: '-100px' }}
         transition={{ duration: 0.6 }}
-        className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-teal-600/20 via-rose-500/10 to-amber-400/10 border border-white/10 p-10 sm:p-14 relative overflow-hidden"
+        className="max-w-4xl mx-auto rounded-3xl bg-gradient-to-br from-[#8a9a7b]/20 via-[#7fa8ad]/10 to-[#d9c9a3]/10 border border-white/10 p-10 sm:p-14 relative overflow-hidden"
       >
-        <div className="absolute -top-20 -right-20 w-60 h-60 bg-teal-500/20 rounded-full blur-3xl" />
+        <div className="absolute -top-20 -right-20 w-60 h-60 bg-[#8a9a7b]/20 rounded-full blur-3xl" />
 
         <div className="relative grid sm:grid-cols-2 gap-10 items-center">
           <div>
-            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-xs font-semibold text-amber-300 mb-4">
+            <span className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/10 text-xs font-semibold text-[#d9c9a3] mb-4">
               <Phone className="w-3.5 h-3.5" /> 100% Free, No Obligation
             </span>
             <h2 className="text-3xl font-bold text-white tracking-tight">
@@ -36,7 +36,7 @@ export default function FreeCounselling() {
             <ul className="mt-6 space-y-2">
               {['15-min 1:1 mentor call', 'Personalized study roadmap', 'No cost, no pressure'].map((t) => (
                 <li key={t} className="flex items-center gap-2 text-sm text-white/70">
-                  <CheckCircle2 className="w-4 h-4 text-teal-300" /> {t}
+                  <CheckCircle2 className="w-4 h-4 text-[#8a9a7b]" /> {t}
                 </li>
               ))}
             </ul>
@@ -60,18 +60,18 @@ export default function FreeCounselling() {
                 required
                 type="text"
                 placeholder="Full Name"
-                className="w-full px-4 py-3 rounded-xl bg-black/30 border border-white/10 text-white placeholder:text-white/40 text-sm outline-none focus:border-teal-400/50"
+                className="w-full px-4 py-3 rounded-xl bg-black/30 border border-white/10 text-white placeholder:text-white/40 text-sm outline-none focus:border-[#8a9a7b]/50"
               />
               <input
                 required
                 type="tel"
                 placeholder="Phone Number"
-                className="w-full px-4 py-3 rounded-xl bg-black/30 border border-white/10 text-white placeholder:text-white/40 text-sm outline-none focus:border-teal-400/50"
+                className="w-full px-4 py-3 rounded-xl bg-black/30 border border-white/10 text-white placeholder:text-white/40 text-sm outline-none focus:border-[#8a9a7b]/50"
               />
               <select
                 required
                 defaultValue=""
-                className="w-full px-4 py-3 rounded-xl bg-black/30 border border-white/10 text-white/80 text-sm outline-none focus:border-teal-400/50"
+                className="w-full px-4 py-3 rounded-xl bg-black/30 border border-white/10 text-white/80 text-sm outline-none focus:border-[#8a9a7b]/50"
               >
                 <option value="" disabled>Interested In</option>
                 <option>JEE Main + Advanced</option>
@@ -80,7 +80,7 @@ export default function FreeCounselling() {
               </select>
               <button
                 type="submit"
-                className="w-full py-3 rounded-xl bg-gradient-to-r from-teal-500 via-rose-500 to-amber-400 text-black font-semibold text-sm hover:scale-[1.02] transition-transform"
+                className="w-full py-3 rounded-xl bg-gradient-to-r from-[#8a9a7b] via-[#7fa8ad] to-[#d9c9a3] text-black font-semibold text-sm hover:scale-[1.02] transition-transform"
               >
                 Book My Free Slot
               </button>

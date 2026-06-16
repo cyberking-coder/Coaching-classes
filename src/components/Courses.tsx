@@ -49,16 +49,16 @@ export default function Courses() {
             whileHover={{ y: -8 }}
             className={`relative rounded-3xl p-8 border ${
               c.highlight
-                ? 'bg-gradient-to-b from-teal-500/15 to-rose-500/5 border-teal-400/40 shadow-[0_0_60px_rgba(20, 184, 166,0.15)]'
+                ? 'bg-gradient-to-b from-[#8a9a7b]/15 to-[#7fa8ad]/5 border-[#8a9a7b]/40 shadow-[0_0_60px_rgba(138, 154, 123, 0.15)]'
                 : 'bg-white/5 border-white/10'
             }`}
           >
             {c.highlight && (
-              <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-teal-500 to-rose-500 text-xs font-semibold text-white">
+              <div className="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full bg-gradient-to-r from-[#8a9a7b] to-[#7fa8ad] text-xs font-semibold text-white">
                 Recommended
               </div>
             )}
-            <span className="text-xs font-semibold uppercase tracking-wider text-amber-300">{c.tag}</span>
+            <span className="text-xs font-semibold uppercase tracking-wider text-[#d9c9a3]">{c.tag}</span>
             <h3 className="mt-3 text-2xl font-bold text-white">{c.name}</h3>
             <div className="mt-4 flex items-baseline gap-1">
               <span className="text-3xl font-bold text-white">{c.price}</span>
@@ -68,7 +68,7 @@ export default function Courses() {
             <ul className="mt-6 space-y-3">
               {c.features.map((f) => (
                 <li key={f} className="flex items-center gap-2 text-sm text-white/70">
-                  <Check className="w-4 h-4 text-teal-300 shrink-0" />
+                  <Check className="w-4 h-4 text-[#8a9a7b] shrink-0" />
                   {f}
                 </li>
               ))}
@@ -78,7 +78,7 @@ export default function Courses() {
               href="#counselling"
               className={`mt-8 inline-flex items-center justify-center gap-2 w-full py-3 rounded-full font-semibold text-sm transition-transform hover:scale-[1.02] ${
                 c.highlight
-                  ? 'bg-gradient-to-r from-teal-500 via-rose-500 to-amber-400 text-black'
+                  ? 'bg-gradient-to-r from-[#8a9a7b] via-[#7fa8ad] to-[#d9c9a3] text-black'
                   : 'bg-white/10 text-white border border-white/15'
               }`}
             >

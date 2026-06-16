@@ -7,9 +7,9 @@ export default function Hero() {
     <section className="relative pt-40 pb-24 px-6 lg:px-10 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-grid [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]" />
-      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-teal-600/20 rounded-full blur-[150px]" />
-      <div className="absolute top-40 right-0 w-[400px] h-[400px] bg-rose-500/20 rounded-full blur-[120px]" />
-      <div className="absolute top-60 left-0 w-[400px] h-[400px] bg-amber-400/10 rounded-full blur-[120px]" />
+      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-[#8a9a7b]/20 rounded-full blur-[150px]" />
+      <div className="absolute top-40 right-0 w-[400px] h-[400px] bg-[#7fa8ad]/20 rounded-full blur-[120px]" />
+      <div className="absolute top-60 left-0 w-[400px] h-[400px] bg-[#d9c9a3]/10 rounded-full blur-[120px]" />
 
       <div className="relative max-w-5xl mx-auto text-center">
         <motion.div
@@ -18,7 +18,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-sm text-white/80 mb-8"
         >
-          <Sparkles className="w-4 h-4 text-amber-300" />
+          <Sparkles className="w-4 h-4 text-[#d9c9a3]" />
           India's #1 Rated Coaching Classes Platform
         </motion.div>
 
@@ -50,7 +50,7 @@ export default function Hero() {
         >
           <a
             href="#counselling"
-            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-teal-500 via-rose-500 to-amber-400 text-black font-semibold hover:shadow-[0_0_40px_rgba(20, 184, 166,0.4)] transition-shadow"
+            className="group inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-gradient-to-r from-[#8a9a7b] via-[#7fa8ad] to-[#d9c9a3] text-black font-semibold hover:shadow-[0_0_40px_rgba(138, 154, 123, 0.4)] transition-shadow"
           >
             Book Free Counselling
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />

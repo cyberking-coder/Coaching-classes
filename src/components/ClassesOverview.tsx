@@ -43,10 +43,10 @@ export default function ClassesOverview() {
             viewport={{ once: true, margin: '-50px' }}
             transition={{ duration: 0.5, delay: i * 0.1 }}
             whileHover={{ y: -6 }}
-            className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:border-teal-400/40 hover:bg-white/[0.07] transition-colors"
+            className="rounded-2xl bg-white/5 border border-white/10 p-6 hover:border-[#8a9a7b]/40 hover:bg-white/[0.07] transition-colors"
           >
-            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-500/20 to-rose-500/20 flex items-center justify-center mb-5">
-              <item.icon className="w-6 h-6 text-teal-300" />
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-[#8a9a7b]/20 to-[#7fa8ad]/20 flex items-center justify-center mb-5">
+              <item.icon className="w-6 h-6 text-[#8a9a7b]" />
             </div>
             <h3 className="text-white font-semibold text-lg mb-2">{item.title}</h3>
             <p className="text-white/55 text-sm leading-relaxed">{item.desc}</p>
